@@ -1,0 +1,555 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+   <div id="header">
+<div class="container">
+  <nav>
+    <img src="images/logo-removebg-preview.png" class="logo">
+    <ul>
+      <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+         <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+<div class="header-text">
+  <p>UI/UX Designer</p>
+  <h1> Hi, I'm <span> Maaz Bin Khalid</span><br> From Pakistan</h1>
+
+</div>
+</div>
+   </div>  
+
+<div id="about">
+  <div class="container">
+
+  </div>
+
+</div> 
+
+
+<div class="about">
+  <div class="container">
+<div class="row">
+     <div class="about-col-1">
+       <img src="./images/WhatsApp Image 2024-06-20 at 12.33.16 AM.jpeg"></div>
+     <div class="about-col-2"><h1 class="sub-title">About Me</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi quibusdam, exercitationem ullam nesciunt necessitatibus sapiente blanditiis quisquam quasi assumenda qui eligendi neque, nisi distinctio error fugiat sed cupiditate a molestiae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, magni!
+    </p>
+  
+  <div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+     <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+      <p class="tab-links"onclick="opentab('Education')">Eduacation</p>
+  </div>
+  <div class="tab-contents active-tab" id="skills">
+    <ul>
+      <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+      <li><span>Web Developer</span><br>Designing Web/App Interfaces</li>
+      <li><span>App Development</span><br>Designing Web/App Interfaces</li>
+    </ul>
+
+  </div>
+  <div class="tab-contents" id="Experiencce">
+    <ul>
+      <li><span>2021-Current</span><br>Designing tead at se college bwp</li>
+      <li><span>2019-2021</span><br> team lead at  se bwp zone ghahgah</li>
+      <li><span>2016-2017</span><br>internship at my home  will be jhoot</li>
+    </ul>
+
+  </div>
+  <div class="tab-contents" id="Eduacation">
+    <ul>
+      <li><span>2016</span><br>UX/UI designing at tec school</li>
+      <li><span>2016</span><br>MBA from Apologise university</li>
+      <li><span>2014</span><br>BBA from isb pakistan modligh</li>
+    </ul>
+
+  </div>
+  
+  </div>
+</div>
+  </div>
+
+</div>
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link")
+  }
+   for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  }
+
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
+
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kevin | Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+<header class="header">
+    <nav class="navbar">
+        <div class="logo">
+            M<span>AAZ</span>.
+        </div>
+
+        <!-- checkbox trick -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="role">Front-End Developer</p>
+
+      <h1>
+        <span class="highlight">Hi,</span> I'm Maaz Bin Khalid<br>
+         <span id="typing">   </span><span class="cursor">|</span>
+      </h1>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/myimg-removebg-preview.png" alt="Kevin">
+    </div>
+  </section>
+
+
+
+
+
+
+
+<!-- <section class="about">
+
+  <div class="about-container">
+
+    <!-- Image -->
+    <!-- <div class="about-img">
+      <img src="./images/myimg-removebg-preview.png" alt="About Me">
+    </div>
+
+    <!-- Content -->
+    <!-- <div class="about-content">
+      <h2>About Me</h2>
+      <p class="about-text">
+        I am a passionate front-end developer and UI/UX designer. I enjoy
+        creating clean, modern, and user-friendly web interfaces. -->
+      <!-- </p> --> 
+
+      <!-- Tabs -->
+      <!-- <div class="tabs">
+        <button class="tab-btn active" onclick="showTab('skills')">Skills</button>
+        <button class="tab-btn" onclick="showTab('experience')">Experience</button>
+        <button class="tab-btn" onclick="showTab('education')">Education</button>
+      </div> -->
+      <!-- <div class="tabs">
+  <button class="tab-btn active" onclick="showTab('skills', this)">Skills</button>
+  <button class="tab-btn" onclick="showTab('experience', this)">Experience</button>
+  <button class="tab-btn" onclick="showTab('education', this)">Education</button>
+</div> -->
+
+      <!-- Tab Content -->
+      <!-- <div class="tab-content active" id="skills">
+        <ul>
+          <li>HTML / CSS / JavaScript</li>
+          <li>Responsive Web Design</li>
+          <li>UI / UX Design</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </div>
+
+      <div class="tab-content" id="experience">
+        <p><strong>2024 – Present</strong></p>
+        <p>Front-End Developer (Freelance)</p>
+
+        <p><strong>2023 – 2024</strong></p>
+        <p>Junior Web Designer</p>
+      </div>
+
+      <div class="tab-content" id="education">
+        <p><strong>2023</strong></p>
+        <p>Intermediate</p>
+
+        <p><strong>2022</strong></p>
+        <p>Matric</p>
+      </div>
+
+    </div>
+  </div> -->
+
+
+<!-- 
+  <div class="tab-content active" id="skills">
+  <div class="skill">
+    <span>HTML</span>
+    <div class="progress">
+      <div class="progress-bar html"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <span>CSS</span>
+    <div class="progress">
+      <div class="progress-bar css"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <span>JavaScript</span>
+    <div class="progress">
+      <div class="progress-bar js"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <span>UI / UX Design</span>
+    <div class="progress">
+      <div class="progress-bar uiux"></div>
+    </div>
+  </div>
+</div>
+
+</section> --> 
+
+
+
+<section class="about">
+  <div class="about-container">
+
+    <div class="about-img">
+      <img src="images/myimg-removebg-preview.png" alt="About">
+    </div>
+
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p class="about-text">
+        Front-end developer focused on clean UI and smooth UX.
+      </p>
+
+      <!-- TABS -->
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="skills">Skills</button>
+        <button class="tab-btn" data-tab="experience">Experience</button>
+        <button class="tab-btn" data-tab="education">Education</button>
+      </div>
+
+      <!-- TAB CONTENT -->
+      
+      
+     <div class="tab-content active" id="skills">
+      
+        <li class="divi"><span style="color: #8B0000;">➊</span> <!-- Dark Red -->  Build responsive websites using HTML, CSS,   <br> JavaScript & React</li>
+        <li class="divi"><span style="color: #8B0000;">➋</span> <!-- Dark Red -->  Convert designs into clean, working web pages</li>
+        <li class="divi"><span style="color: #8B0000;">➌</span> <!-- Dark Red -->  Create user-friendly and modern interfaces</li>
+        <li class="divi"><span style="color: #8B0000;">➍</span> <!-- Dark Red --> Fix layout and responsiveness issues</li>
+        <li class="divi"><span style="color: #8B0000;">➎</span> <!-- Dark Red -->  Web Performance Optimization</li> 
+      </div>
+
+      <div class="tab-content" id="experience">
+  <div class="timeline">
+    <div class="timeline-item">
+      <span class="year">2025 - Present</span>
+      <p>Front-End Developer (Freelance)</p>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">2023</span>
+      <p>Junior Web Designer</p>
+    </div>
+  </div>
+</div>
+
+<div class="tab-content" id="education">
+  <div class="timeline">
+    <div class="timeline-item">
+      <span class="year">2023</span>
+      <p>Intermediate</p>
+    </div>
+
+    <div class="timeline-item">
+      <span class="year">2021</span>
+      <p>Matric</p>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+ <!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+</head>
+<body>
+
+<section class="services">
+  <h2 data-aos="fade-right">My Services</h2>
+
+  <div class="service-container">
+
+    <div class="service-card" data-aos="fade-up" onclick="serviceClick('Web Design')">
+      <i class="fas fa-code"></i>
+      <h3>Web Design</h3>
+      <p>
+    I design clean, responsive, and user-friendly websites that deliver a smooth and engaging user experience.
+      </p>
+      <span>Learn more</span>
+    </div>
+
+    <div class="service-card" data-aos="fade-up" data-aos-delay="150"
+      onclick="serviceClick('UI/UX Design')">
+      <i class="fas fa-bezier-curve"></i>
+      <h3>UI/UX Design</h3>
+      <p>
+        User-focused designs with clean layouts and smooth user experience.
+      </p>
+      <span>Learn more</span>
+    </div>
+
+    <div class="service-card" data-aos="fade-up" data-aos-delay="300"
+      onclick="serviceClick('App Design')">
+      <i class="fas fa-mobile-screen"></i>
+      <h3>App Design</h3>
+      <p>
+        Creative mobile app designs for Android & iOS platforms.
+      </p>
+      <span>Learn more</span>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- <section class="work">
+  <h2>My Work</h2>
+
+  <div class="work-container">
+
+    <div class="work-card" onclick="openProject('Project 1')">
+      <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9" alt="Work 1">
+      <div class="overlay">
+        <span>View Project</span>
+      </div>
+    </div>
+
+    <div class="work-card" onclick="openProject('Project 2')">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Work 2">
+      <div class="overlay">
+        <span>View Project</span>
+      </div>
+    </div>
+
+    <div class="work-card" onclick="openProject('Project 3')">
+      <img src="https://images.unsplash.com/photo-1580910051074-3eb694886505" alt="Work 3" alt="Work 3">
+      <div class="overlay">
+        <span>View Project</span>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="see-more" onclick="seeMore()">See more</button>
+</section> -->
+
+
+
+ <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<section class="work">
+  <h2 data-aos="fade-right">My Work</h2>
+
+  <!-- Filter -->
+  <div class="filters" data-aos="fade-up">
+    <button class="active" onclick="filterProjects('all')">All</button>
+    <button onclick="filterProjects('web')">Web</button>
+    <button onclick="filterProjects('app')">App</button>
+  </div>
+
+  <!-- Projects -->
+  <div class="work-container">
+
+    <div class="work-card web" data-aos="zoom-in">
+      <img src="./images/what-is-a-web-developer.jpg">
+      <div class="overlay">
+        <span onclick="openModal('Web Project 1','https://example.com')">View Project</span>
+      </div>
+    </div>
+
+    <div class="work-card app" data-aos="zoom-in" data-aos-delay="150">
+      <img src="./images/web app.webp">
+      <div class="overlay">
+        <span onclick="openModal('App Project','https://example.com')">View Project</span>
+      </div>
+    </div>
+
+    <div class="work-card web" data-aos="zoom-in" data-aos-delay="300">
+      <img src="./images/web developer.jpg">
+      <div class="overlay">
+        <span onclick="openModal('Web Project 2','https://example.com')">View Project</span>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="see-more" data-aos="fade-up">See more</button>
+</section>
+
+<!-- MODAL -->
+<div class="modal" id="projectModal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h3 id="modalTitle"></h3>
+    <a id="modalLink" target="_blank">Visit Project</a>
+  </div>
+</div>
+
+
+
+
+<!-- Font Awesome -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+
+<section class="contacts">
+
+  <div class="contacts-left">
+    <h2>Contact Me</h2>
+
+    <p><i class="fa-solid fa-paper-plane"></i>maazbinkhalid786@gmail.com</p>
+    <p><i class="fa-solid fa-phone"></i> +923001359766</p>
+
+    <div class="social">
+      <a href="https://www.facebook.com/share/1cSCWjK7Gy/" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+     <a href=" https://call.whatsapp.com/voice/Ti53IKBznO2aV7jEhIRefo" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+       <a href="https://www.upwork.com/freelancers/~010a69f01aadc37f78" class="upwork"><i class="fa-brands fa-upwork"></i></a>
+      <a href="https://www.linkedin.com/in/maaz-bin-khalid-b944a4326/" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+
+    <a href="cv.pdf" download class="btn">Download CV</a>
+  </div>
+
+  <div class="contacts-right">
+    <form id="contacts-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+
+</section>
+
+<footer>
+  © 2025 Maaz Bin Khalid. All rights reserved.
+Built with passion for clean design and modern web development.
+</footer>
+
+
+
+
+
+
+
+
+
+<!-- JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
